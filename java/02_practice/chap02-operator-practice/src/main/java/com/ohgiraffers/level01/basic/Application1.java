@@ -18,7 +18,7 @@ public class Application1 {
         int num2 = 20;
 
 //        String result = (num1 < num2)? "두 수 중 큰 수는 20입니다." : "두 수 중 큰 수는 10입니다.";
-        String result = (num1 < num2)? "20" : "10";
+        int result = (num1 > num2)? num1 : num2;
         System.out.println("두 수 중 큰 수는" + result + "입니다.");
 
 
