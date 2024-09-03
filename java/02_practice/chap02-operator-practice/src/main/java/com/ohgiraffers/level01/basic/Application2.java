@@ -14,5 +14,10 @@ public class Application2 {
          * 합격입니다~~!!! 또는 아쉽지만 불합격입니다..
          *
          * */
+
+        int num1 = 100;
+
+        String result = (num1 < 60)? "불합격입니다" : (num1 >= 60)? "합격입니다" : "불합격입니다";
+        System.out.println(result);
     }
 }

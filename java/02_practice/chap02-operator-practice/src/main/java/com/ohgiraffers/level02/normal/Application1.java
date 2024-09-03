@@ -14,5 +14,14 @@ public class Application1 {
          * 홍길동의 이번 점수등급은 B입니다.
          *
          * */
+
+        double dnum = 72.4;
+        int num = (int) dnum;
+        System.out.println(num);
+
+        String result = (num >= 90)? "A" : (num >= 80)? "B" : (num >= 70)? "C" : (num >= 60)? "D" :  "F";
+        System.out.println(result);
+
+        System.out.println("홍길동의 이번 점수등급은" + result + "입니다.");
     }
 }
