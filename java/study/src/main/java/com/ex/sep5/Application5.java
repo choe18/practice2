@@ -51,6 +51,9 @@ public class Application5 {
             result = firstNum / secondNum;
         } else if (operator == '%') {
             result = firstNum % secondNum;
+        } else {
+            System.out.println("입력하신 연산은 없습니다. 프로그램을 종료합니다.");
+            return;
         }
 
         System.out.println(firstNum + " " + operator + " " + secondNum + " = " + result);

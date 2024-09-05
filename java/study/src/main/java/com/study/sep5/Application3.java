@@ -34,29 +34,32 @@ public class Application3 {
         int day = sc1.nextInt();
 
         if (month >= 1 && month <= 12 && day >= 1 && day <= 31) {
+            if (month ==12 && day == 25) {
+                System.out.println("크리스마스");
+                return;
+            }
+            if (month == 7 && day == 17) {
+                System.out.println("제헌절");
+                return;
+            }
+            if (month == 10 && day == 31) {
+                System.out.println("할로윈");
+                return;
+            }
             if (month >= 3 && month <= 5) {
                 System.out.println("봄");
                 return;
             }
             if (month >= 6 && month <= 8) {
                 System.out.println("여름");
-                if (month == 7 && day == 17) {
-                    System.out.println("제헌절");
-                }
                 return;
             }
             if (month >= 9 && month <= 11) {
                 System.out.println("가을");
-                if (month == 10 && day == 31) {
-                    System.out.println("할로윈");
-                }
                 return;
             }
             if (month >= 2 && month <= 12) {
                 System.out.println("겨울");
-                if (month == 12 && day == 25) {
-                    System.out.println("크리스마스");
-                }
                 return;
             }
         } else {

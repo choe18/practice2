@@ -34,5 +34,7 @@ public class Application4 {
         } else if (choice == 6) {
             System.out.println("자존심이 센 편이라 비교 당하거나 지적을 당하면 큰 스트레스를 받아요. 너무 마음에 담아두지 않는게 좋아요!");
         }
+
+        System.out.println("재미있는 심리테스트 끝!");
     }
 }

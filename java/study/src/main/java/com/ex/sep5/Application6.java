@@ -55,6 +55,9 @@ public class Application6 {
         } else if (fruit.equals("grape")) {
             fruitName = "grape";
             fruitPrice = 5000;
+        } else {
+            System.out.println("준비된 상품이 없습니다.");
+            return;
         }
 
         System.out.println(fruitName + "의 가격은 " + fruitPrice + "입니다.");
