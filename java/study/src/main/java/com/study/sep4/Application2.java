@@ -1,4 +1,4 @@
-package com.study.practice;
+package com.study.sep4;
 
 public class Application2 {
 

@@ -1,4 +1,4 @@
-package com.study.section1;
+package com.ex.sep4;
 
 public class Caculator {
 
@@ -20,9 +20,11 @@ public class Caculator {
         return first - second;
     }
 
-    public int checkMaxNumber(int a, int b) {
-        int result = a > b ? a : b;
-        return result;
+    public void checkMaxNumber(int a, int b) {
+
+        int check = a > b ? a : b;
+        System.out.println(check);
+
     }
 
 

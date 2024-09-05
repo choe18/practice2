@@ -1,4 +1,4 @@
-package com.study.section1;
+package com.ex.sep4;
 
 public class Application {
 
@@ -20,12 +20,7 @@ public class Application {
         int sum3 = calc.minusTwoNumber(10,5);
         System.out.println(sum3);
 
-        int sum4;
-        sum4 = calc.checkMaxNumber(3,10);
-        System.out.println(sum4);
-
-
-
+        calc.checkMaxNumber(10,50);
 
     }
 }
