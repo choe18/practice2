@@ -1,8 +1,10 @@
 package com.study.sep6;
 
+import java.util.Scanner;
+
 public class method {
 
-    public void method() {
+    public void methodA() {
 
         //  7~15 사이의 난수를 발생시켜서 3부터 발생한 난수까지의 합계 구하기
 
@@ -17,5 +19,52 @@ public class method {
         }
 
         System.out.println("3부터 발생한 " + random + "까지의 합 = " + sum);
+    }
+
+    public void methodB() {
+
+//        팩토리얼을 계산하는 반복문 만들기
+//        입력예시) 정수를 입력하세요 : 5
+
+//        출력예시) 입력하신 숫자의 팩토리얼은 120 입니다
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("정수를 입력하세요 : ");
+        int num = sc.nextInt();
+        long result = 1L;
+
+//        int sum = 0;
+//        int result = 0;
+        for( int i = 1; i <= num; i++) {
+            result *= i;
+        }
+        System.out.println(result);
+
+
+    }
+
+    public void methodC() {
+
+        /*for문을 사용하여 '*'을 출력해서 높이가 5인 삼각형을 만들어 보세요
+         * 출력예시
+         *              *
+         ***
+         *****
+         *******
+         *********
+
+         * */
+
+        int sum = 0;
+
+        for ( int i = 1; i < 6; i++ ) {
+
+            for (int j = 0; j < i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+
     }
 }
