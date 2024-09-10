@@ -1,4 +1,4 @@
-package com.study.sep4;
+package com.study.sep04;
 
 public class Caculator2 {
 
