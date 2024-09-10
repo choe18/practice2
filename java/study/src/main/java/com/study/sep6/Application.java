@@ -6,7 +6,7 @@ public class Application {
 
         method m = new method();
 //        m.methodA();
-//        m.methodB();
-        m.methodC();
+        m.methodB();
+//        m.methodC();
     }
 }

@@ -23,7 +23,7 @@ public class method {
 
     public void methodB() {
 
-//        팩토리얼을 계산하는 반복문 만들기
+//        팩토리얼을 계산하는 반복문 만들기  // 팩토리얼 : 곱한 값들
 //        입력예시) 정수를 입력하세요 : 5
 
 //        출력예시) 입력하신 숫자의 팩토리얼은 120 입니다
@@ -31,14 +31,13 @@ public class method {
         Scanner sc = new Scanner(System.in);
         System.out.print("정수를 입력하세요 : ");
         int num = sc.nextInt();
-        long result = 1L;
+//        long result = 1L;
 
-//        int sum = 0;
-//        int result = 0;
+        int sum = 1;  // int sum = 0; <- 이렇게 기입 시 *0이 되어버리기 때문에 1을 입력해줘야 함
         for( int i = 1; i <= num; i++) {
-            result *= i;
+            sum *= i;
         }
-        System.out.println(result);
+        System.out.println(sum);
 
 
     }
