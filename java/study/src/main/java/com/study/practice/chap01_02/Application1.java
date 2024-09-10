@@ -1,6 +1,6 @@
-package com.study.sep09;
+package com.study.practice.chap01_02;
 
-public class Application4 {
+public class Application1 {
 
     public static void main(String[] args) {
 
@@ -12,8 +12,8 @@ public class Application4 {
 
 
         // 2. 정수형 변수를 선언하여 점수를 저장하고,
-        //    삼항 연산자를 사용하여 점수가 80점 이상이면 “합격”,
-        //    그렇지 않으면 “불합격” 을 출력하는 프로그램을 작성하세요.
+        //삼항 연산자를 사용하여 점수가 80점 이상이면 “합격”,
+        //그렇지 않으면 “불합격” 을 출력하는 프로그램을 작성하세요.
 
         int num = 77;
         String result = (num < 80)? "불합격" : (num >= 80 )? "합격" : "불합격";
