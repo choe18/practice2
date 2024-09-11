@@ -20,7 +20,6 @@ public class Application2 {
         // ex) 공이 23개면 상자는 5개가 필요
 
         int ball = 43;
-        String less = "공을 5개 이상 넣어주세요";
         int box = (ball >= 5)? ball / 5 : 1;
 
         System.out.println("공을 모두 넣기 위해 필요한 상자는 " + box + "개 입니다.");

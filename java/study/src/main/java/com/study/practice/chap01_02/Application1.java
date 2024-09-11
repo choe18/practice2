@@ -8,7 +8,7 @@ public class Application1 {
 
         double weight1 = 80.8;
         int weight2 = (int) weight1;
-        System.out.println(weight2);
+        System.out.println(weight2);        // 80
 
 
         // 2. 정수형 변수를 선언하여 점수를 저장하고,
@@ -17,6 +17,6 @@ public class Application1 {
 
         int num = 77;
         String result = (num < 80)? "불합격" : (num >= 80 )? "합격" : "불합격";
-        System.out.println(result);
+        System.out.println(result);         // 불합격
     }
 }

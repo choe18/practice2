@@ -35,7 +35,19 @@ public class Application3 {
         // 단, 할인 후의 금액과 적용된 할인율을 출력해야 합니다.
         // 삼항 연산자를 사용하여 이 계산기를 구현하세요.
 
-        
+        // 할인율 = discount
+        // 할인 후 금액 = discountedPrice
+        // price >= 500000 -> /0.2
+        // price >= 300000 && price < 500000 -> /0.1
+        // price >= 100000 && price < 300000 -> 0.05
+        // price < 100000 -> x
+        // System.out.println("할인 후의 금액은 " + discountedPrice + "이며, 적용된 할인율은 " + discount + "%입니다.");
 
+        int price = 340000;
+        String num = String.valueOf(price);
+
+//        int discountedPrice = (price >= 500000)? price / 0.2 : 0;
+//        System.out.println(discountedPrice);
+//        System.out.println(String.valueOf(price));
     }
 }
